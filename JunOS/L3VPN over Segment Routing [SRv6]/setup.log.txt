@@ -1,0 +1,374 @@
+<h2>Setup: Starting</h2>
+2026-05-12 08:12:53 Setup: Started script execution [@CP1-INF-JCL-ES2]
+
+2026-05-12 08:12:55 Config_Service: Started command: Sandbox action 'setup' [@CP1-INF-JCL-ES1]
+2026-05-12 08:13:12 Config_Service: Sent email #1 - your sandbox has begun
+2026-05-12 08:13:12 Config_Service: Started assigning OOB Mgt addresses to the resources
+2026-05-12 08:13:30 Config_Service: Completed assigning OOB Mgt addresses to the resources
+2026-05-12 08:13:30 Config_Service: Beginning public port assignment for the sandbox resources
+2026-05-12 08:13:36 Config_Service: Public IP for OOBM access: 66.129.235.202 
+Port forwarding for vMX-02240
+     Forwarding traffic 66.129.235.202:42000 --> 100.123.1.0:830
+     Forwarding traffic 66.129.235.202:42001 --> 100.123.1.0:3000
+     Forwarding traffic 66.129.235.202:42002 --> 100.123.1.0:22
+Port forwarding for vMX-02057
+     Forwarding traffic 66.129.235.202:42003 --> 100.123.1.1:830
+     Forwarding traffic 66.129.235.202:42004 --> 100.123.1.1:3000
+     Forwarding traffic 66.129.235.202:42005 --> 100.123.1.1:22
+Port forwarding for HelperVM-02000
+     Forwarding traffic 66.129.235.202:42006 --> 100.123.0.8:443
+     Forwarding traffic 66.129.235.202:42007 --> 100.123.0.8:3389
+     Forwarding traffic 66.129.235.202:42008 --> 100.123.0.8:22
+     Forwarding traffic 66.129.235.202:42009 --> 100.123.0.8:8080
+     Forwarding traffic 66.129.235.202:42010 --> 100.123.0.8:8081
+     Forwarding traffic 66.129.235.202:42011 --> 100.123.0.8:8443
+     Forwarding traffic 66.129.235.202:42012 --> 100.123.0.8:9443
+Port forwarding for vMX-02242
+     Forwarding traffic 66.129.235.202:42013 --> 100.123.1.2:830
+     Forwarding traffic 66.129.235.202:42014 --> 100.123.1.2:3000
+     Forwarding traffic 66.129.235.202:42015 --> 100.123.1.2:22
+Port forwarding for vMX-02243
+     Forwarding traffic 66.129.235.202:42016 --> 100.123.1.3:830
+     Forwarding traffic 66.129.235.202:42017 --> 100.123.1.3:3000
+     Forwarding traffic 66.129.235.202:42018 --> 100.123.1.3:22
+Port forwarding for vMX-02249
+     Forwarding traffic 66.129.235.202:42019 --> 100.123.1.4:830
+     Forwarding traffic 66.129.235.202:42020 --> 100.123.1.4:3000
+     Forwarding traffic 66.129.235.202:42021 --> 100.123.1.4:22
+Port forwarding for vMX-02058
+     Forwarding traffic 66.129.235.202:42022 --> 100.123.1.5:830
+     Forwarding traffic 66.129.235.202:42023 --> 100.123.1.5:3000
+     Forwarding traffic 66.129.235.202:42024 --> 100.123.1.5:22
+
+2026-05-12 08:13:36 Config_Service: Started connecting physical resources to OOB Mgt Network
+2026-05-12 08:13:36 Config_Service: Completed connecting physical resources to OOB Mgt Network
+2026-05-12 08:13:37 Config_Service: Calling action (begin) on resource vRIG-02052 - attempt #1
+
+2026-05-12 08:13:40 vRIG-02052: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:13:45 vRIG-02052: 'Version Selected' set to => '5.RP02'
+2026-05-12 08:13:45 vRIG-02052: Creating Linked-Clone VM 'vRIG-02052' based on '5.RP02'
+2026-05-12 08:13:51 vRIG-02052: Powering on VM 'vRIG-02052'
+2026-05-12 08:13:52 vRIG-02052: Pausing execution for 50 sec
+2026-05-12 08:14:42 vRIG-02052: Starting sandbox_action_begin
+2026-05-12 08:14:42 vRIG-02052: Waiting 60 sec
+2026-05-12 08:18:12 vRIG-02052: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3: 271 sec]
+2026-05-12 08:18:15 Config_Service: Running action (begin) on service PP_Service
+
+2026-05-12 08:18:18 PP_Service: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:18:19 PP_Service: Saving Current connections, Result=True
+2026-05-12 08:18:19 PP_Service: Current connections (0)
+2026-05-12 08:18:19 PP_Service: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3: 0 sec]
+<h2>Starting action 'begin' on all resources</h2>
+2026-05-12 08:18:20 Config_Service: Starting with the resource group 1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource vMX-02240 - attempt #1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource vMX-02057 - attempt #1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource HelperVM-02000 - attempt #1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource vMX-02242 - attempt #1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource vMX-02243 - attempt #1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource vMX-02058 - attempt #1
+2026-05-12 08:18:20 Config_Service: Calling action (begin) on resource vMX-02249 - attempt #1
+
+
+
+
+
+
+
+2026-05-12 08:18:24 vMX-02240: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:18:24 HelperVM-02000: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES1]
+2026-05-12 08:18:24 vMX-02057: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES2]
+2026-05-12 08:18:24 vMX-02242: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:18:25 vMX-02058: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES1]
+2026-05-12 08:18:25 vMX-02243: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES2]
+2026-05-12 08:18:25 vMX-02249: Started command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:18:29 vMX-02240: Abstract Resource attribute 'Version Requested' has value 'Version_vMX'
+2026-05-12 08:18:29 vMX-02240: Global Input 'Version_vMX' has value '22.1R1.10', and attribute 'Version Requested' will use that value
+2026-05-12 08:18:29 vMX-02240: 'Version Requested' defined on the Abstract Resource has valid syntax: '22.1R1.10'
+2026-05-12 08:18:29 vMX-02240: 'Version Selected' set to => '22.1R1.10'
+2026-05-12 08:18:29 vMX-02242: Abstract Resource attribute 'Version Requested' has value 'Version_vMX'
+2026-05-12 08:18:29 vMX-02057: Abstract Resource attribute 'Version Requested' has value 'Version_vMX'
+2026-05-12 08:18:29 vMX-02242: Global Input 'Version_vMX' has value '22.1R1.10', and attribute 'Version Requested' will use that value
+2026-05-12 08:18:30 vMX-02057: Global Input 'Version_vMX' has value '22.1R1.10', and attribute 'Version Requested' will use that value
+2026-05-12 08:18:30 vMX-02242: 'Version Requested' defined on the Abstract Resource has valid syntax: '22.1R1.10'
+2026-05-12 08:18:30 HelperVM-02000: 'Version Selected' set to => '13.3.0'
+2026-05-12 08:18:30 vMX-02057: 'Version Requested' defined on the Abstract Resource has valid syntax: '22.1R1.10'
+2026-05-12 08:18:30 HelperVM-02000: Creating VM 'HelperVM-02000' based on version '13.3.0'
+2026-05-12 08:18:30 vMX-02242: 'Version Selected' set to => '22.1R1.10'
+2026-05-12 08:18:30 vMX-02057: 'Version Selected' set to => '22.1R1.10'
+2026-05-12 08:18:30 vMX-02249: Abstract Resource attribute 'Version Requested' has value 'Version_vMX'
+2026-05-12 08:18:31 vMX-02243: Abstract Resource attribute 'Version Requested' has value 'Version_vMX'
+2026-05-12 08:18:31 vMX-02249: Global Input 'Version_vMX' has value '22.1R1.10', and attribute 'Version Requested' will use that value
+2026-05-12 08:18:31 vMX-02058: Abstract Resource attribute 'Version Requested' has value 'Version_vMX'
+2026-05-12 08:18:31 vMX-02243: Global Input 'Version_vMX' has value '22.1R1.10', and attribute 'Version Requested' will use that value
+2026-05-12 08:18:31 vMX-02249: 'Version Requested' defined on the Abstract Resource has valid syntax: '22.1R1.10'
+2026-05-12 08:18:31 vMX-02058: Global Input 'Version_vMX' has value '22.1R1.10', and attribute 'Version Requested' will use that value
+2026-05-12 08:18:31 vMX-02243: 'Version Requested' defined on the Abstract Resource has valid syntax: '22.1R1.10'
+2026-05-12 08:18:31 vMX-02058: 'Version Requested' defined on the Abstract Resource has valid syntax: '22.1R1.10'
+2026-05-12 08:18:32 vMX-02249: 'Version Selected' set to => '22.1R1.10'
+2026-05-12 08:18:32 vMX-02243: 'Version Selected' set to => '22.1R1.10'
+2026-05-12 08:18:32 vMX-02058: 'Version Selected' set to => '22.1R1.10'
+2026-05-12 08:18:36 vMX-02240: Creating VM 'vMX-02240_1' based on version '22.1R1.10'
+2026-05-12 08:18:37 vMX-02057: Creating VM 'vMX-02057_1' based on version '22.1R1.10'
+2026-05-12 08:18:37 vMX-02242: Creating VM 'vMX-02242_1' based on version '22.1R1.10'
+2026-05-12 08:18:37 HelperVM-02000: Connecting management interface of VM 'HelperVM-02000' [sandbox-02052]
+2026-05-12 08:18:38 vMX-02249: Creating VM 'vMX-02249_1' based on version '22.1R1.10'
+2026-05-12 08:18:38 vMX-02243: Creating VM 'vMX-02243_1' based on version '22.1R1.10'
+2026-05-12 08:18:38 vMX-02058: Creating VM 'vMX-02058_1' based on version '22.1R1.10'
+2026-05-12 08:18:41 vMX-02240: Connecting management interface of VM 'vMX-02240_1' [sandbox-02052]
+2026-05-12 08:18:42 vMX-02242: Connecting management interface of VM 'vMX-02242_1' [sandbox-02052]
+2026-05-12 08:18:42 vMX-02057: Connecting management interface of VM 'vMX-02057_1' [sandbox-02052]
+2026-05-12 08:18:43 vMX-02249: Connecting management interface of VM 'vMX-02249_1' [sandbox-02052]
+2026-05-12 08:18:44 vMX-02058: Connecting management interface of VM 'vMX-02058_1' [sandbox-02052]
+2026-05-12 08:18:44 vMX-02243: Connecting management interface of VM 'vMX-02243_1' [sandbox-02052]
+2026-05-12 08:18:52 vMX-02240: Creating VM 'vMX-02240_2' based on version '22.1R1.10'
+2026-05-12 08:18:52 HelperVM-02000: Powering on VM 'HelperVM-02000'
+2026-05-12 08:18:52 HelperVM-02000: Pausing execution for 60 sec
+2026-05-12 08:18:53 vMX-02242: Creating VM 'vMX-02242_2' based on version '22.1R1.10'
+2026-05-12 08:18:53 vMX-02057: Creating VM 'vMX-02057_2' based on version '22.1R1.10'
+2026-05-12 08:18:54 vMX-02249: Creating VM 'vMX-02249_2' based on version '22.1R1.10'
+2026-05-12 08:18:54 vMX-02058: Creating VM 'vMX-02058_2' based on version '22.1R1.10'
+2026-05-12 08:18:57 vMX-02240: Connecting management interface of VM 'vMX-02240_2' [sandbox-02052]
+2026-05-12 08:18:59 vMX-02057: Connecting management interface of VM 'vMX-02057_2' [sandbox-02052]
+2026-05-12 08:18:59 vMX-02242: Connecting management interface of VM 'vMX-02242_2' [sandbox-02052]
+2026-05-12 08:18:59 vMX-02249: Connecting management interface of VM 'vMX-02249_2' [sandbox-02052]
+2026-05-12 08:18:59 vMX-02243: Creating VM 'vMX-02243_2' based on version '22.1R1.10'
+2026-05-12 08:19:00 vMX-02058: Connecting management interface of VM 'vMX-02058_2' [sandbox-02052]
+2026-05-12 08:19:05 vMX-02243: Connecting management interface of VM 'vMX-02243_2' [sandbox-02052]
+2026-05-12 08:19:09 vMX-02240: Pausing execution for 5 sec
+2026-05-12 08:19:10 vMX-02057: Pausing execution for 5 sec
+2026-05-12 08:19:10 vMX-02242: Pausing execution for 5 sec
+2026-05-12 08:19:10 vMX-02249: Pausing execution for 5 sec
+2026-05-12 08:19:11 vMX-02058: Pausing execution for 5 sec
+2026-05-12 08:19:14 vMX-02240: Pausing execution for 10.112 sec (rnd)
+2026-05-12 08:19:15 vMX-02057: Pausing execution for 19.067 sec (rnd)
+2026-05-12 08:19:15 vMX-02242: Pausing execution for 10.277 sec (rnd)
+2026-05-12 08:19:15 vMX-02249: Pausing execution for 1.463 sec (rnd)
+2026-05-12 08:19:16 vMX-02058: Pausing execution for 8.46 sec (rnd)
+2026-05-12 08:19:17 vMX-02249: Powering on VM 'vMX-02249_1'
+2026-05-12 08:19:17 vMX-02243: Pausing execution for 5 sec
+2026-05-12 08:19:18 vMX-02249: Powering on VM 'vMX-02249_2'
+2026-05-12 08:19:19 vMX-02249: Pausing execution for 180 sec
+2026-05-12 08:19:22 vMX-02243: Pausing execution for 18.986 sec (rnd)
+2026-05-12 08:19:24 vMX-02240: Powering on VM 'vMX-02240_1'
+2026-05-12 08:19:25 vMX-02058: Powering on VM 'vMX-02058_1'
+2026-05-12 08:19:25 vMX-02240: Powering on VM 'vMX-02240_2'
+2026-05-12 08:19:25 vMX-02242: Powering on VM 'vMX-02242_1'
+2026-05-12 08:19:26 vMX-02058: Powering on VM 'vMX-02058_2'
+2026-05-12 08:19:26 vMX-02240: Pausing execution for 180 sec
+2026-05-12 08:19:26 vMX-02058: Pausing execution for 180 sec
+2026-05-12 08:19:27 vMX-02242: Powering on VM 'vMX-02242_2'
+2026-05-12 08:19:28 vMX-02242: Pausing execution for 180 sec
+2026-05-12 08:19:34 vMX-02057: Powering on VM 'vMX-02057_1'
+2026-05-12 08:19:35 vMX-02057: Powering on VM 'vMX-02057_2'
+2026-05-12 08:19:36 vMX-02057: Pausing execution for 180 sec
+2026-05-12 08:19:41 vMX-02243: Powering on VM 'vMX-02243_1'
+2026-05-12 08:19:42 vMX-02243: Powering on VM 'vMX-02243_2'
+2026-05-12 08:19:43 vMX-02243: Pausing execution for 180 sec
+2026-05-12 08:19:58 HelperVM-02000: Health Check for SSH --> Port is OPEN at 66.129.235.202:42008
+<font color="orange">2026-05-12 08:20:46 HelperVM-02000: [WARN] Health Check for HTTPS --> Port is CLOSED at 66.129.235.202:42006</font>
+2026-05-12 08:20:47 HelperVM-02000: Health Check for RDP --> Port is OPEN at 66.129.235.202:42007
+2026-05-12 08:20:51 HelperVM-02000: Starting res_specific_begin
+2026-05-12 08:22:24 vMX-02249: Health Check for NETCONF --> Port is OPEN at 66.129.235.202:42019
+2026-05-12 08:22:25 vMX-02249: Health Check for SSH --> Port is OPEN at 66.129.235.202:42021
+2026-05-12 08:22:26 vMX-02249: Health Check for REST --> Port is OPEN at 66.129.235.202:42020
+2026-05-12 08:22:31 vMX-02249: Applying Junos licenses (if available)
+2026-05-12 08:22:31 vMX-02058: Health Check for NETCONF --> Port is OPEN at 66.129.235.202:42022
+2026-05-12 08:22:32 vMX-02240: Health Check for NETCONF --> Port is OPEN at 66.129.235.202:42000
+2026-05-12 08:22:33 vMX-02058: Health Check for SSH --> Port is OPEN at 66.129.235.202:42024
+2026-05-12 08:22:33 vMX-02240: Health Check for SSH --> Port is OPEN at 66.129.235.202:42002
+2026-05-12 08:22:33 vMX-02242: Health Check for NETCONF --> Port is OPEN at 66.129.235.202:42013
+2026-05-12 08:22:34 vMX-02058: Health Check for REST --> Port is OPEN at 66.129.235.202:42023
+2026-05-12 08:22:34 vMX-02240: Health Check for REST --> Port is OPEN at 66.129.235.202:42001
+2026-05-12 08:22:34 vMX-02242: Health Check for SSH --> Port is OPEN at 66.129.235.202:42015
+2026-05-12 08:22:36 vMX-02242: Health Check for REST --> Port is OPEN at 66.129.235.202:42014
+2026-05-12 08:22:39 vMX-02058: Applying Junos licenses (if available)
+2026-05-12 08:22:39 vMX-02240: Applying Junos licenses (if available)
+2026-05-12 08:22:40 vMX-02242: Applying Junos licenses (if available)
+2026-05-12 08:22:41 vMX-02057: Health Check for NETCONF --> Port is OPEN at 66.129.235.202:42003
+2026-05-12 08:22:43 vMX-02057: Health Check for SSH --> Port is OPEN at 66.129.235.202:42005
+2026-05-12 08:22:44 vMX-02057: Health Check for REST --> Port is OPEN at 66.129.235.202:42004
+2026-05-12 08:22:47 HelperVM-02000: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES1: 262 sec]
+2026-05-12 08:22:48 vMX-02057: Applying Junos licenses (if available)
+2026-05-12 08:22:49 vMX-02243: Health Check for NETCONF --> Port is OPEN at 66.129.235.202:42016
+2026-05-12 08:22:50 vMX-02243: Health Check for SSH --> Port is OPEN at 66.129.235.202:42018
+2026-05-12 08:22:51 vMX-02243: Health Check for REST --> Port is OPEN at 66.129.235.202:42017
+2026-05-12 08:22:55 vMX-02243: Applying Junos licenses (if available)
+2026-05-12 08:23:56 vMX-02249: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3: 330 sec]
+2026-05-12 08:24:07 vMX-02057: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES2: 343 sec]
+2026-05-12 08:24:08 vMX-02058: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES1: 343 sec]
+2026-05-12 08:24:08 vMX-02242: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3: 344 sec]
+2026-05-12 08:24:08 vMX-02240: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES3: 344 sec]
+2026-05-12 08:24:20 vMX-02243: Completed command: Sandbox-action 'begin'  [@CP1-INF-JCL-ES2: 354 sec]
+<h2>Completed action 'begin' on all resources</h2>
+<h2>Starting action 'config' on all resources</h2>
+2026-05-12 08:24:40 Config_Service: Starting with the resource group 1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource vMX-02240 - attempt #1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource vMX-02057 - attempt #1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource HelperVM-02000 - attempt #1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource vMX-02242 - attempt #1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource vMX-02243 - attempt #1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource vMX-02058 - attempt #1
+2026-05-12 08:24:41 Config_Service: Calling action (config) on resource vMX-02249 - attempt #1
+
+
+
+
+
+
+
+2026-05-12 08:24:42 vMX-02240: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:24:42 HelperVM-02000: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES1]
+2026-05-12 08:24:42 vMX-02240: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES3: 0 sec]
+2026-05-12 08:24:42 HelperVM-02000: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES1: 0 sec]
+2026-05-12 08:24:43 vMX-02057: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES2]
+2026-05-12 08:24:43 vMX-02057: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES2: 0 sec]
+2026-05-12 08:24:43 vMX-02243: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES2]
+2026-05-12 08:24:43 vMX-02242: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:24:43 vMX-02243: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES2: 0 sec]
+2026-05-12 08:24:43 vMX-02242: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES3: 0 sec]
+2026-05-12 08:24:43 vMX-02249: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES3]
+2026-05-12 08:24:43 vMX-02058: Started command: Sandbox-action 'config'  [@CP1-INF-JCL-ES1]
+2026-05-12 08:24:43 vMX-02249: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES3: 0 sec]
+2026-05-12 08:24:43 vMX-02058: Completed command: Sandbox-action 'config'  [@CP1-INF-JCL-ES1: 0 sec]
+<h2>Completed action 'config' on all resources</h2>
+
+2026-05-12 08:25:05 PP_Service: Started command: Update Connections [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:06 PP_Service: We need to reserve more vWires: 6
+2026-05-12 08:25:06 PP_Service: Processing new connections
+2026-05-12 08:25:06 PP_Service:     Add new: vMX-02242/ge-0_0_2 <==> vMX-02058/ge-0_0_1  vWire-02-A-1111  Alias='NONE'
+2026-05-12 08:25:06 PP_Service:     Add new: vMX-02243/ge-0_0_1 <==> vMX-02249/ge-0_0_2  vWire-02-A-1114  Alias='NONE'
+2026-05-12 08:25:06 PP_Service:     Add new: vMX-02249/ge-0_0_1 <==> vMX-02242/ge-0_0_1  vWire-02-A-1115  Alias='NONE'
+2026-05-12 08:25:06 PP_Service:     Add new: vMX-02240/ge-0_0_0 <==> vMX-02249/ge-0_0_0  vWire-02-A-1455  Alias='NONE'
+2026-05-12 08:25:06 PP_Service:     Add new: vMX-02058/ge-0_0_2 <==> vMX-02243/ge-0_0_2  vWire-02-A-1456  Alias='NONE'
+2026-05-12 08:25:06 PP_Service:     Add new: vMX-02058/ge-0_0_0 <==> vMX-02057/ge-0_0_0  vWire-02-A-1457  Alias='NONE'
+2026-05-12 08:25:06 PP_Service:        
+2026-05-12 08:25:06 PP_Service: Calling Resource Driver commands to connect/disconnect interface
+2026-05-12 08:25:06 PP_Service:   *** Calling vMX-02057 =>   if=ge-0_0_0 net=vWire-02-A-1457 connected=on
+2026-05-12 08:25:07 vMX-02057: Started command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1457, conn=on [@CP1-INF-JCL-ES2]
+2026-05-12 08:25:09 vMX-02057: Completed command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1457, conn=on [@CP1-INF-JCL-ES2: 1 sec]
+
+2026-05-12 08:25:09 PP_Service:   *** Calling vMX-02249 =>   if=ge-0_0_2 net=vWire-02-A-1114 connected=on
+2026-05-12 08:25:11 vMX-02249: Started command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1114, conn=on [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:12 vMX-02249: Completed command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1114, conn=on [@CP1-INF-JCL-ES3: 1 sec]
+
+2026-05-12 08:25:12 PP_Service:   *** Calling vMX-02249 =>   if=ge-0_0_1 net=vWire-02-A-1115 connected=on
+2026-05-12 08:25:14 vMX-02249: Started command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1115, conn=on [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:15 vMX-02249: Completed command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1115, conn=on [@CP1-INF-JCL-ES3: 1 sec]
+
+2026-05-12 08:25:16 PP_Service:   *** Calling vMX-02249 =>   if=ge-0_0_0 net=vWire-02-A-1455 connected=on
+2026-05-12 08:25:17 vMX-02249: Started command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1455, conn=on [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:18 vMX-02249: Completed command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1455, conn=on [@CP1-INF-JCL-ES3: 1 sec]
+
+2026-05-12 08:25:19 PP_Service:   *** Calling vMX-02243 =>   if=ge-0_0_1 net=vWire-02-A-1114 connected=on
+2026-05-12 08:25:20 vMX-02243: Started command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1114, conn=on [@CP1-INF-JCL-ES2]
+2026-05-12 08:25:22 vMX-02243: Completed command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1114, conn=on [@CP1-INF-JCL-ES2: 1 sec]
+
+2026-05-12 08:25:22 PP_Service:   *** Calling vMX-02243 =>   if=ge-0_0_2 net=vWire-02-A-1456 connected=on
+2026-05-12 08:25:23 vMX-02243: Started command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1456, conn=on [@CP1-INF-JCL-ES2]
+2026-05-12 08:25:26 vMX-02243: Completed command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1456, conn=on [@CP1-INF-JCL-ES2: 2 sec]
+
+2026-05-12 08:25:26 PP_Service:   *** Calling vMX-02242 =>   if=ge-0_0_2 net=vWire-02-A-1111 connected=on
+2026-05-12 08:25:27 vMX-02242: Started command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1111, conn=on [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:29 vMX-02242: Completed command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1111, conn=on [@CP1-INF-JCL-ES3: 1 sec]
+
+2026-05-12 08:25:29 PP_Service:   *** Calling vMX-02242 =>   if=ge-0_0_1 net=vWire-02-A-1115 connected=on
+2026-05-12 08:25:30 vMX-02242: Started command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1115, conn=on [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:32 vMX-02242: Completed command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1115, conn=on [@CP1-INF-JCL-ES3: 1 sec]
+
+2026-05-12 08:25:32 PP_Service:   *** Calling vMX-02058 =>   if=ge-0_0_2 net=vWire-02-A-1456 connected=on
+2026-05-12 08:25:33 vMX-02058: Started command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1456, conn=on [@CP1-INF-JCL-ES1]
+2026-05-12 08:25:35 vMX-02058: Completed command: Connect Interface, if=ge-0_0_2 nw=vWire-02-A-1456, conn=on [@CP1-INF-JCL-ES1: 1 sec]
+
+2026-05-12 08:25:35 PP_Service:   *** Calling vMX-02058 =>   if=ge-0_0_1 net=vWire-02-A-1111 connected=on
+2026-05-12 08:25:37 vMX-02058: Started command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1111, conn=on [@CP1-INF-JCL-ES1]
+2026-05-12 08:25:38 vMX-02058: Completed command: Connect Interface, if=ge-0_0_1 nw=vWire-02-A-1111, conn=on [@CP1-INF-JCL-ES1: 1 sec]
+
+2026-05-12 08:25:38 PP_Service:   *** Calling vMX-02058 =>   if=ge-0_0_0 net=vWire-02-A-1457 connected=on
+2026-05-12 08:25:39 vMX-02058: Started command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1457, conn=on [@CP1-INF-JCL-ES1]
+2026-05-12 08:25:41 vMX-02058: Completed command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1457, conn=on [@CP1-INF-JCL-ES1: 1 sec]
+
+2026-05-12 08:25:41 PP_Service:   *** Calling vMX-02240 =>   if=ge-0_0_0 net=vWire-02-A-1455 connected=on
+2026-05-12 08:25:42 vMX-02240: Started command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1455, conn=on [@CP1-INF-JCL-ES3]
+2026-05-12 08:25:44 vMX-02240: Completed command: Connect Interface, if=ge-0_0_0 nw=vWire-02-A-1455, conn=on [@CP1-INF-JCL-ES3: 1 sec]
+
+2026-05-12 08:25:54 PP_Service: Saving Current connections, Result=True
+2026-05-12 08:25:54 PP_Service: Current connections (6)
+2026-05-12 08:25:55 PP_Service:     vMX-02242/ge-0_0_2 <==> vMX-02058/ge-0_0_1  vWire-02-A-1111  Alias='NONE'
+2026-05-12 08:25:55 PP_Service:     vMX-02243/ge-0_0_1 <==> vMX-02249/ge-0_0_2  vWire-02-A-1114  Alias='NONE'
+2026-05-12 08:25:55 PP_Service:     vMX-02249/ge-0_0_1 <==> vMX-02242/ge-0_0_1  vWire-02-A-1115  Alias='NONE'
+2026-05-12 08:25:55 PP_Service:     vMX-02240/ge-0_0_0 <==> vMX-02249/ge-0_0_0  vWire-02-A-1455  Alias='NONE'
+2026-05-12 08:25:55 PP_Service:     vMX-02058/ge-0_0_2 <==> vMX-02243/ge-0_0_2  vWire-02-A-1456  Alias='NONE'
+2026-05-12 08:25:55 PP_Service:     vMX-02058/ge-0_0_0 <==> vMX-02057/ge-0_0_0  vWire-02-A-1457  Alias='NONE'
+2026-05-12 08:25:55 PP_Service: Completed command: Update Connections [@CP1-INF-JCL-ES3: 49 sec]
+2026-05-12 08:25:56 Config_Service: Executing HelperVM Demo command, attempt #1
+
+2026-05-12 08:25:57 HelperVM-02000: Started command: Demo command [@CP1-INF-JCL-ES1]
+2026-05-12 08:26:39 HelperVM-02000: Completed command: Demo command [@CP1-INF-JCL-ES1: 42 sec]
+2026-05-12 08:26:43 Config_Service: Sent email #2 - Your sandbox is now available
+2026-05-12 08:26:43 Config_Service: Completed command: Sandbox action 'setup' [@CP1-INF-JCL-ES1: 827 sec]
+2026-05-12 08:26:43 Setup: Execute setup orchestration workflow
+Beginning sandbox setup
+Preparing connectivity
+No apps to deploy
+No apps to discover
+No apps to configure
+Sandbox setup finished successfully
+2026-05-12 08:26:46 Setup: Completed script execution in 13 min 54 sec      [@CP1-INF-JCL-ES2: 834 sec]
+<h2>Setup: Completed</h2>
+
+<h2>Teardown: Starting</h2>
+2026-05-12 09:55:20 Teardown: Executing on: CP1-INF-JCL-ES2
+
+2026-05-12 09:55:23 Config_Service: Started command: Sandbox action 'teardown' [@CP1-INF-JCL-ES1]
+2026-05-12 09:55:26 Config_Service: HelperVM command 'cleanup' not found, or command timeout set to zero, nothing to do
+<h2>Starting action 'end' on all resources</h2>
+2026-05-12 09:55:26 Config_Service: Starting with the resource group 1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource vMX-02057 - attempt #1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource vMX-02240 - attempt #1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource HelperVM-02000 - attempt #1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource vMX-02242 - attempt #1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource vMX-02243 - attempt #1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource vMX-02058 - attempt #1
+2026-05-12 09:55:26 Config_Service: Calling action (end) on resource vMX-02249 - attempt #1
+
+
+
+
+
+
+
+2026-05-12 09:55:30 vMX-02057: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3]
+2026-05-12 09:55:31 HelperVM-02000: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES1]
+2026-05-12 09:55:31 vMX-02240: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES2]
+2026-05-12 09:55:31 vMX-02242: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3]
+2026-05-12 09:55:32 vMX-02058: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES1]
+2026-05-12 09:55:32 vMX-02243: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES2]
+2026-05-12 09:55:32 vMX-02249: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3]
+2026-05-12 09:55:37 vMX-02057: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3: 6 sec]
+2026-05-12 09:55:39 vMX-02249: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3: 6 sec]
+2026-05-12 09:55:40 vMX-02243: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES2: 8 sec]
+2026-05-12 09:55:41 vMX-02240: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES2: 10 sec]
+2026-05-12 09:55:42 HelperVM-02000: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES1: 11 sec]
+2026-05-12 09:55:44 vMX-02058: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES1: 12 sec]
+2026-05-12 09:55:47 vMX-02242: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3: 16 sec]
+<h2>Completed action 'end' on all resources</h2>
+2026-05-12 09:56:08 Config_Service: Running action (end) on service PP_Service
+
+2026-05-12 09:56:11 PP_Service: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3]
+2026-05-12 09:56:11 PP_Service: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3: 0 sec]
+2026-05-12 09:56:12 Config_Service: Calling action (end) on resource vRIG-02052 - attempt #1
+
+2026-05-12 09:56:15 vRIG-02052: Started command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3]
+2026-05-12 09:56:25 vRIG-02052: Completed command: Sandbox-action 'end'  [@CP1-INF-JCL-ES3: 9 sec]
+2026-05-12 09:56:25 Config_Service: Clearing RM data for resources in the sandbox
+2026-05-12 09:56:50 Config_Service: Completed clearing attributes of the SB resources
+2026-05-12 09:56:50 Config_Service: Started connecting physical resources to OOB Mgt Network
+2026-05-12 09:56:50 Config_Service: Completed connecting physical resources to OOB Mgt Network
+2026-05-12 09:56:50 Config_Service: Completed command: Sandbox action 'teardown' [@CP1-INF-JCL-ES1: 87 sec]
+2026-05-12 09:56:50 Teardown: Execute teardown orchestration workflow
+Beginning sandbox teardown
+Cleaning-up connectivity
+Sandbox teardown finished successfully
+2026-05-12 09:56:52 Teardown: Completed script execution in 1 min 33 sec      [@CP1-INF-JCL-ES2: 93 sec]
+<h2>Teardown: Completed</h2>
+
