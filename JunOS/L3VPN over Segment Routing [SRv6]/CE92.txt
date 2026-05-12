@@ -1,0 +1,275 @@
+jcluser@CE2> show version 
+Hostname: CE2
+Model: vmx
+Junos: 22.1R1.10
+JUNOS OS Kernel 64-bit  [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS libs [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS runtime [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS time zone information [20220221.2b3c81a_builder_stable_12_221]
+JUNOS network stack and utilities [20220316.080819_builder_junos_221_r1]
+JUNOS libs [20220316.080819_builder_junos_221_r1]
+JUNOS OS libs compat32 [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS 32-bit compatibility [20220221.2b3c81a_builder_stable_12_221]
+JUNOS libs compat32 [20220316.080819_builder_junos_221_r1]
+JUNOS runtime [20220316.080819_builder_junos_221_r1]
+JUNOS Packet Forwarding Engine Simulation Package [20220316.080819_builder_junos_221_r1]
+JUNOS sflow mx [20220316.080819_builder_junos_221_r1]
+JUNOS py extensions [20220316.080819_builder_junos_221_r1]
+JUNOS py base [20220316.080819_builder_junos_221_r1]
+JUNOS OS vmguest [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS crypto [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS boot-ve files [20220221.2b3c81a_builder_stable_12_221]
+JUNOS na telemetry [22.1R1.10]
+Junos vmguest package [20220316.080819_builder_junos_221_r1]
+JUNOS mx libs compat32 [20220316.080819_builder_junos_221_r1]
+JUNOS mx runtime [20220316.080819_builder_junos_221_r1]
+JUNOS RPD Telemetry Application [22.1R1.10]
+JUNOS Routing mpls-oam-basic [20220316.080819_builder_junos_221_r1]
+JUNOS Routing mpls-oam-advanced [20220316.080819_builder_junos_221_r1]
+JUNOS Routing lsys [20220316.080819_builder_junos_221_r1]
+JUNOS Routing controller-internal [20220316.080819_builder_junos_221_r1]
+JUNOS Routing controller-external [20220316.080819_builder_junos_221_r1]
+JUNOS Routing 32-bit Compatible Version [20220316.080819_builder_junos_221_r1]
+JUNOS Routing aggregated [20220316.080819_builder_junos_221_r1]
+Redis [20220316.080819_builder_junos_221_r1]
+JUNOS probe utility [20220316.080819_builder_junos_221_r1]
+JUNOS common platform support [20220316.080819_builder_junos_221_r1]
+JUNOS Openconfig [22.1R1.10]
+JUNOS mtx network modules [20220316.080819_builder_junos_221_r1]
+JUNOS modules [20220316.080819_builder_junos_221_r1]
+JUNOS mx modules [20220316.080819_builder_junos_221_r1]
+JUNOS mx libs [20220316.080819_builder_junos_221_r1]
+JUNOS L2 RSI Scripts [20220316.080819_builder_junos_221_r1]
+JUNOS SQL Sync Daemon [20220316.080819_builder_junos_221_r1]
+JUNOS mtx Data Plane Crypto Support [20220316.080819_builder_junos_221_r1]
+JUNOS daemons [20220316.080819_builder_junos_221_r1]
+JUNOS mx daemons [20220316.080819_builder_junos_221_r1]
+JUNOS Broadband Edge User Plane Apps [22.1R1.10]
+JUNOS appidd-mx application-identification daemon [20220316.080819_builder_junos_221_r1]
+JUNOS Simulation Linux Package [20220316.080819_builder_junos_221_r1]
+JUNOS Simulation Package [20220316.080819_builder_junos_221_r1]
+JUNOS Services URL Filter package [20220316.080819_builder_junos_221_r1]
+JUNOS Services TLB Service PIC package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Telemetry [20220316.080819_builder_junos_221_r1]
+JUNOS Services TCP-LOG [20220316.080819_builder_junos_221_r1]
+JUNOS Services SSL [20220316.080819_builder_junos_221_r1]
+JUNOS Services SOFTWIRE [20220316.080819_builder_junos_221_r1]
+JUNOS Services Stateful Firewall [20220316.080819_builder_junos_221_r1]
+JUNOS Services RTCOM [20220316.080819_builder_junos_221_r1]
+JUNOS Services RPM [20220316.080819_builder_junos_221_r1]
+JUNOS Services PCEF package [20220316.080819_builder_junos_221_r1]
+JUNOS Services NAT [20220316.080819_builder_junos_221_r1]
+JUNOS Services Mobile Subscriber Service Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services MobileNext Software package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Logging Report Framework package [20220316.080819_builder_junos_221_r1]
+JUNOS Services LL-PDF Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Jflow Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Deep Packet Inspection package [20220316.080819_builder_junos_221_r1]
+JUNOS Services IPSec [20220316.080819_builder_junos_221_r1]
+JUNOS Services IDS [20220316.080819_builder_junos_221_r1]
+JUNOS IDP Services [20220316.080819_builder_junos_221_r1]
+JUNOS Services HTTP Content Management package [20220316.080819_builder_junos_221_r1]
+JUNOS Services DNS Filter package (i386) [20220316.080819_builder_junos_221_r1] 
+JUNOS Services Crypto [20220316.080819_builder_junos_221_r1]
+JUNOS Services Captive Portal and Content Delivery Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services COS [20220316.080819_builder_junos_221_r1]
+JUNOS AppId Services [20220316.080819_builder_junos_221_r1]
+JUNOS Services Application Level Gateways [20220316.080819_builder_junos_221_r1]
+JUNOS Services AACL Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Extension Toolkit [20220316.080819_builder_junos_221_r1]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20220316.080819_builder_junos_221_r1]
+JUNOS J-Insight [20220316.080819_builder_junos_221_r1]
+JUNOS Online Documentation [20220316.080819_builder_junos_221_r1]
+JUNOS jail runtime [20220221.2b3c81a_builder_stable_12_221]
+JUNOS dsa dsa [22.1R1.10]
+
+jcluser@CE2> 
+
+jcluser@CE2> show chassis hardware 
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                VM6A02E2F7AA      VMX
+Midplane        
+Routing Engine 0                                         RE-VMX
+CB 0                                                     VMX SCB
+FPC 0                     BUILTIN      BUILTIN           Virtual FPC
+  CPU            Rev. 1.0 RIOT-LITE    BUILTIN          
+  MIC 0                                                  Virtual
+    PIC 0                 BUILTIN      BUILTIN           Virtual
+
+jcluser@CE2> 
+
+jcluser@CE2> show chassis hardware detail 
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                VM6A02E2F7AA      VMX
+Midplane        
+Routing Engine 0                                         RE-VMX
+  cd0   27649 MB  VMware Virtual IDE Har 00000000000000000001 Hard Disk
+CB 0                                                     VMX SCB
+FPC 0                     BUILTIN      BUILTIN           Virtual FPC
+  CPU            Rev. 1.0 RIOT-LITE    BUILTIN          
+  MIC 0                                                  Virtual
+    PIC 0                 BUILTIN      BUILTIN           Virtual
+
+jcluser@CE2> 
+
+jcluser@CE2> show configuration | display set 
+set version 22.1R1.10
+set groups GR-EDGE-INTF interfaces <*> description ********GR-EDGE-INTF-SETTINGS-APPLIED-ADD-DESCRIPTION********
+set groups GR-EDGE-INTF interfaces <*> traps
+set groups GR-EDGE-INTF interfaces <*> flexible-vlan-tagging
+set groups GR-EDGE-INTF interfaces <*> mtu 7500
+set groups GR-EDGE-INTF interfaces <*> hold-time up 180000
+set groups GR-EDGE-INTF interfaces <*> hold-time down 0
+set groups GR-EDGE-INTF interfaces <*> damping half-life 30
+set groups GR-EDGE-INTF interfaces <*> damping max-suppress 600
+set groups GR-EDGE-INTF interfaces <*> damping reuse 250
+set groups GR-EDGE-INTF interfaces <*> damping suppress 2000
+set groups GR-EDGE-INTF interfaces <*> damping enable
+set groups GR-EDGE-INTF interfaces <*> encapsulation flexible-ethernet-services
+set groups GR-EDGE-INTF interfaces <ae*> aggregated-ether-options lacp active
+set groups GR-EDGE-INTF interfaces <ae*> aggregated-ether-options lacp accept-data
+set groups GR-EDGE-INTF interfaces <ae*> aggregated-ether-options lacp hold-time up 2
+set groups GR-EDGE-INTF interfaces "<[egx][te]-*>" optics-options alarm low-light-alarm link-down
+set groups GR-EDGE-INTF interfaces "<[egx][te]-*>" optics-options warning low-light-warning syslog
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> traps
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> hold-time up 180000
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> hold-time down 0
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> optics-options alarm low-light-alarm link-down
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> optics-options warning low-light-warning syslog
+set groups GR-VR routing-instances <*> instance-type virtual-router
+set groups GR-VR routing-instances <*> protocols ospf3 realm ipv4-unicast area <*> interface "<*[egs]*>" interface-type p2p
+set groups GR-VR routing-instances <*> protocols ospf3 realm ipv4-unicast area <*> interface <lo0*> passive
+set groups GR-VR routing-instances <*> protocols ospf3 spf-options delay 50
+set groups GR-VR routing-instances <*> protocols ospf3 spf-options holddown 2000
+set groups GR-VR routing-instances <*> protocols ospf3 spf-options rapid-runs 5
+set groups GR-VR routing-instances <*> protocols ospf3 area <*> interface "<*[egs]*>" interface-type p2p
+set groups GR-VR routing-instances <*> protocols ospf3 area <*> interface <lo0*> passive
+set groups GR-VR routing-instances <*> protocols ospf3 overload timeout 300
+set groups GR-VR routing-instances <*> protocols ospf3 reference-bandwidth 1000g
+set groups global interfaces lo0 description loopback
+deactivate groups global interfaces lo0
+set system host-name CE2
+set system root-authentication encrypted-password "$6$Hdm8SUkz$3hMljRtWjELlWRL5t7EOlCxKvjBkjGWeyWl5.nYMX/4RBV0ZlbE.O9mNaS2axWW8NUVokZPi44MITM7OJPT2T."
+set system root-authentication ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAYEA0v/g0JwB9p88dGXIrEiZOPeFAIN0MsUrdNc/txHVRCuyXgwCHBvqJm9qKsSnxlAFYMDmFDwKR71gMuEHhp5muZWAU8y8cagcwssvLRPthJSWA8+g2ah4tVLX3DO+LjS7IwiHO3FC2NIVXxNWcXGFQn2usr9+rAoGgSO6zoykaid8r/yak73memrWIsHmZUbCdxjmT88dQgwt6p5mA4ZtREtwanpZI1hrXE0fR6HaC8gIPRgJM9Ldgu2mE+QHb/W240W3d3RrXUECzfCZiXIJrGy2P5QJAjrjg29hxkqwkhSytVqX3/U2bCHP2aJ5W32NfNcSvyyI+PpVqanbG/Quq8lAoEA5I088LJuDf37bZ6lBzADkyCZ0/5C5xZ2R0ZMLlfGR5JDKmVFCjLcumykopaEGIrLL6w/i+LhEG6eAhGIQYQjzLOezBnnlpuOpWIgk9ZAqCVcByNZThFkaP79QsOg7s5v+0tPJDMvnyuvVOMvE2QmO7eXNW73kK5MXksTl kszarkowicz@q-pod13-vmm.englab.juniper.net"
+set system scripts language python3
+set system login class wheel permissions snmp
+set system login user jcluser uid 2000
+set system login user jcluser class super-user
+set system login user jcluser authentication encrypted-password "$6$2H3c7MrE$n.u5fiG.lgWjZ96dP9IP0EhNggywGO1FTzbXFYQRXay3Lese7zusndrigu8yLQtb2UAj56Q1zc.YFlqqqOq0h0"
+set system login user regress uid 928
+set system login user regress class superuser
+set system login user regress shell csh
+set system login user regress authentication encrypted-password "$1$kPU..$w.4FGRAGanJ8U4Yq6sbj7."
+set system login user remote uid 2000
+set system login user remote class super-user
+set system services finger
+set system services ftp
+set system services rlogin
+set system services ssh root-login allow
+set system services telnet
+set system services xnm-clear-text      
+set system services netconf ssh
+set system services rest http port 3000
+set system services rest enable-explorer
+set system domain-name englab.juniper.net
+set system domain-search englab.juniper.net
+set system domain-search juniper.net
+set system domain-search jnpr.net
+set system backup-router 10.49.255.254
+set system time-zone America/Los_Angeles
+set system debugger-on-break
+set system dump-on-panic
+set system authentication-order password
+set system authentication-order radius
+set system ports console log-out-on-disconnect
+set system name-server 10.49.32.95
+set system name-server 10.49.32.97
+set system radius-server 10.48.144.16 secret "$9$TQ/t1IcSrKAt0IRheK8X7VYgaZDm5zNdiqmTn6"
+set system radius-server 10.48.144.17 secret "$9$GqUqf3nCApOPfQn690ORhSeWL7-boZDylsgoGHk"
+set system syslog user * any emergency
+set system syslog host log any notice
+set system syslog host log kernel info
+set system syslog host log pfe info
+set system syslog host log interactive-commands any
+set system syslog file interactive-commands interactive-commands any
+set system syslog file messages any notice
+set system syslog file messages authorization info
+set system syslog file messages kernel info
+set system syslog file messages pfe info
+set system syslog file messages archive world-readable
+set system syslog file security interactive-commands any
+set system syslog file security archive world-readable
+set system processes routing enable
+set system processes ntp enable
+set system processes management enable
+set system processes watchdog enable
+set system processes dhcp-service traceoptions file dhcp_logfile
+set system processes dhcp-service traceoptions file size 10m
+set system processes dhcp-service traceoptions level all
+set system processes dhcp-service traceoptions flag packet
+set system processes snmp enable
+set system processes inet-process enable
+set system processes mib-process enable
+set system ntp boot-server 66.129.255.75
+set system ntp server 66.129.255.75
+set system ntp server 172.29.131.60
+set system ntp server 172.29.135.60
+set chassis dump-on-panic
+set chassis fpc 0 pic 0 number-of-ports 8
+set chassis fpc 0 lite-mode
+set chassis network-services enhanced-ip
+set interfaces ge-0/0/0 apply-groups GR-EDGE-INTF
+set interfaces ge-0/0/0 description PE12:ge-0/0/0
+set interfaces ge-0/0/0 flexible-vlan-tagging
+set interfaces ge-0/0/0 gigether-options ethernet-switch-profile tag-protocol-id 0x9100
+set interfaces ge-0/0/0 unit 20 vlan-tags outer 0x9100.20
+set interfaces ge-0/0/0 unit 20 family inet address 20.12.92.92/24
+set interfaces ge-0/0/0 unit 20 family inet6 address babe:face:20::1292:92/112
+set interfaces ge-0/0/0 unit 30 vlan-tags outer 0x9100.30
+set interfaces ge-0/0/0 unit 30 family inet address 30.12.92.92/24
+set interfaces ge-0/0/0 unit 30 family inet6 address babe:face:30::1292:92/112
+set interfaces fxp0 unit 0 family inet address 100.123.1.1/16
+set interfaces lo0 unit 20 family inet address 192.168.20.92/32
+set interfaces lo0 unit 20 family inet6 address abba:20::92/128
+set interfaces lo0 unit 30 family inet address 192.168.30.92/32
+set interfaces lo0 unit 30 family inet6 address abba:30::92/128
+set snmp location "Systest lab"
+set snmp contact "Jay Lloyd"
+set snmp interface fxp0.0
+set snmp community public authorization read-only
+set snmp community private authorization read-write
+set routing-instances RI-20 apply-groups GR-VR
+set routing-instances RI-20 routing-options router-id 192.168.20.92
+set routing-instances RI-20 protocols ospf3 realm ipv4-unicast area 0.0.0.0 interface ge-0/0/0.20
+set routing-instances RI-20 protocols ospf3 realm ipv4-unicast area 0.0.0.0 interface lo0.20
+set routing-instances RI-20 protocols ospf3 area 0.0.0.0 interface ge-0/0/0.20
+set routing-instances RI-20 protocols ospf3 area 0.0.0.0 interface lo0.20
+set routing-instances RI-20 interface ge-0/0/0.20
+set routing-instances RI-20 interface lo0.20
+set routing-instances RI-30 apply-groups GR-VR
+set routing-instances RI-30 routing-options router-id 192.168.30.92
+set routing-instances RI-30 protocols ospf3 realm ipv4-unicast area 0.0.0.0 interface ge-0/0/0.30
+set routing-instances RI-30 protocols ospf3 realm ipv4-unicast area 0.0.0.0 interface lo0.30
+set routing-instances RI-30 protocols ospf3 area 0.0.0.0 interface ge-0/0/0.30
+set routing-instances RI-30 protocols ospf3 area 0.0.0.0 interface lo0.30
+set routing-instances RI-30 interface ge-0/0/0.30
+set routing-instances RI-30 interface lo0.30
+set routing-options router-id 128.49.251.140
+set routing-options static route 0.0.0.0/0 next-hop 100.123.0.1
+set routing-options static route 172.16.0.0/12 next-hop 10.49.255.254
+set routing-options static route 172.16.0.0/12 retain
+set routing-options static route 172.16.0.0/12 no-readvertise
+set routing-options static route 192.168.0.0/16 next-hop 10.49.255.254
+set routing-options static route 192.168.0.0/16 retain
+set routing-options static route 192.168.0.0/16 no-readvertise
+set routing-options static route 10.0.0.0/8 next-hop 10.49.255.254
+set routing-options static route 10.0.0.0/8 retain
+set routing-options static route 10.0.0.0/8 no-readvertise
+set routing-options static route 66.129.0.0/16 next-hop 10.49.255.254
+set routing-options static route 66.129.0.0/16 retain
+set routing-options static route 66.129.0.0/16 no-readvertise
+set protocols router-advertisement interface fxp0.0
+
+jcluser@CE2> 
