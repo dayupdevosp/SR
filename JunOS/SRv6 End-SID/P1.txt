@@ -1,0 +1,134 @@
+jcluser@P1> show version 
+Hostname: P1
+Model: vmx
+Family: junos
+Junos: 25.2R2.11
+JUNOS OS Kernel 64-bit  [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS libs compat32 [20260112.ed9bf62_builder_bsd15_252]
+JUNOS modules [20260206.145934_builder_junos_252_r2]
+JUNOS OS vmguest [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS libs [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS 32-bit compatibility [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS runtime [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS time zone information [20260112.ed9bf62_builder_bsd15_252]
+JUNOS py extensions [20260206.145934_builder_junos_252_r2]
+JUNOS py base [20260206.145934_builder_junos_252_r2]
+JUNOS OS package [20251208.213424_builder_main]
+JUNOS OS crypto [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS boot-ve files [20260112.ed9bf62_builder_bsd15_252]
+JUNOS mx libs [20260206.145934_builder_junos_252_r2]
+JUNOS network stack and utilities [20260206.145934_builder_junos_252_r2]
+JUNOS libs [20260206.145934_builder_junos_252_r2]
+JUNOS jail runtime [20260112.ed9bf62_builder_bsd15_252]
+JUNOS daemons [20260206.145934_builder_junos_252_r2]
+JUNOS mtx network modules [20260206.145934_builder_junos_252_r2]
+JUNOS OS network modules [20260112.ed9bf62_builder_bsd15_252]
+JUNOS mx libs compat32 [20260206.145934_builder_junos_252_r2]
+JUNOS vmguest (NFX-3) [20260206.145934_builder_junos_252_r2]
+JUNOS vmguest  [20260206.145934_builder_junos_252_r2]
+JUNOS mx daemons [20260206.145934_builder_junos_252_r2]
+JUNOS libs compat32 [20260206.145934_builder_junos_252_r2]
+JUNOS mx runtime [20260206.145934_builder_junos_252_r2]
+JUNOS mx modules [20260206.145934_builder_junos_252_r2]
+JUNOS runtime [20260206.145934_builder_junos_252_r2]
+JUNOS Extension Toolkit [20260206.145934_builder_junos_252_r2]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+25.2R2.11]
+JUNOS J-Insight [20260206.145934_builder_junos_252_r2]
+JUNOS Online Documentation [20260206.145934_builder_junos_252_r2]
+JUNOS dsa [20260206.145934_builder_junos_252_r2]
+JUNOS Packet Forwarding Engine Simulation Package [20260206.145934_builder_junos_252_r2]
+JUNOS SSH Tunnel Daemon [20260206.145934_builder_junos_252_r2]
+JUNOS sflow mx [20260206.145934_builder_junos_252_r2]
+JUNOS na telemetry [25.2R2.11]
+JUNOS System Monitoring [20260206.145934_builder_junos_252_r2]
+JUNOS support scripts [20260206.145934_builder_junos_252_r2]
+Junos scheduler tracing [20260206.145934_builder_junos_252_r2]
+JUNOS RPD Telemetry Application [25.2R2.11]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20260206.145934_builder_junos_252_r2]
+JUNOS Routing mpls-oam-basic [20260206.145934_builder_junos_252_r2]
+JUNOS Routing mpls-oam-advanced [20260206.145934_builder_junos_252_r2]
+JUNOS Routing lsys [20260206.145934_builder_junos_252_r2]
+JUNOS Routing controller-internal [20260206.145934_builder_junos_252_r2]
+JUNOS Routing controller-external [20260206.145934_builder_junos_252_r2]
+JUNOS Routing 32-bit Compatible Version [20260206.145934_builder_junos_252_r2]
+JUNOS Routing aggregated [20260206.145934_builder_junos_252_r2]
+JUNOS probe utility [20260206.145934_builder_junos_252_r2]
+JUNOS common platform support [20260206.145934_builder_junos_252_r2]
+JUNOS Openconfig [25.2R2.11]
+JUNOS L2 RSI Scripts [20260206.145934_builder_junos_252_r2]
+JUNOS Key Manager [20260206.145934_builder_junos_252_r2]
+JUNOS SQL Sync Daemon [20260206.145934_builder_junos_252_r2]
+JUNOS mtx Data Plane Crypto Support [20260206.145934_builder_junos_252_r2]
+JUNOS Broadband Edge User Plane Apps [25.2R2.11]
+JUNOS appidd-mx application-identification daemon [20260206.145934_builder_junos_252_r2]
+JUNOS Simulation Linux Package [20260206.145934_builder_junos_252_r2]
+JUNOS Simulation Package [20260206.145934_builder_junos_252_r2]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+25.2R2.11]
+
+jcluser@P1> 
+
+jcluser@P1> show chassis hardware      
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                VM6A023E93AA      VMX
+Midplane        
+Routing Engine 0                                         RE-VMX
+CB 0                                                     VMX SCB
+FPC 0                     BUILTIN      BUILTIN           Virtual FPC
+  CPU            Rev. 1.0 RIOT-LITE    BUILTIN          
+  MIC 0                                                  Virtual
+    PIC 0                 BUILTIN      BUILTIN           Virtual
+
+jcluser@P1> show chassis hardware detail 
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                VM6A023E93AA      VMX
+Midplane        
+Routing Engine 0                                         RE-VMX
+  cd0   27649 MB  VMware Virtual IDE Har 00000000000000000001 Hard Disk
+CB 0                                                     VMX SCB
+FPC 0                     BUILTIN      BUILTIN           Virtual FPC
+  CPU            Rev. 1.0 RIOT-LITE    BUILTIN          
+  MIC 0                                                  Virtual
+    PIC 0                 BUILTIN      BUILTIN           Virtual
+
+jcluser@P1> 
+
+jcluser@P1> show configuration | display set 
+set version 25.2R2.11
+set system host-name P1
+set system root-authentication encrypted-password "$6$e4.I0rgy$BEIDd2Aywlz2clw2TKA8Y6FxacHLhYZl1K0pAfoA31NKBbacviBh9BAjXedrpEOutxWOifR5Z5P3vLNJtRAHl."
+set system scripts language python3
+set system login user jcluser uid 2000
+set system login user jcluser class super-user
+set system login user jcluser authentication encrypted-password "$6$2H3c7MrE$n.u5fiG.lgWjZ96dP9IP0EhNggywGO1FTzbXFYQRXay3Lese7zusndrigu8yLQtb2UAj56Q1zc.YFlqqqOq0h0"
+set system services netconf ssh
+set system services ssh root-login allow
+set system services rest http port 3000
+set system services rest enable-explorer
+set system syslog user * any emergency
+set system syslog file interactive-commands interactive-commands any
+set system syslog file messages any notice
+set system syslog file messages authorization info
+set system processes dhcp-service traceoptions file dhcp_logfile
+set system processes dhcp-service traceoptions file size 10m
+set system processes dhcp-service traceoptions level all
+set system processes dhcp-service traceoptions flag packet
+set chassis fpc 0 pic 0 number-of-ports 8
+set chassis fpc 0 lite-mode
+set interfaces ge-0/0/0 unit 0 family iso
+set interfaces ge-0/0/0 unit 0 family inet6 address beef::1101:01/112
+set interfaces ge-0/0/1 unit 0 family iso
+set interfaces ge-0/0/1 unit 0 family inet6 address beef::1201:01/112
+set interfaces fxp0 unit 0 family inet address 100.123.1.0/16
+set interfaces lo0 unit 0 family iso address 49.0000.0000.0000.0001.00
+set interfaces lo0 unit 0 family inet6 address bad:cafe::01/128
+set routing-options source-packet-routing srv6 locator SRV6-LOC-01 bad:feed:0:01::/64
+set routing-options static route 0.0.0.0/0 next-hop 100.123.0.1
+set protocols router-advertisement interface fxp0.0
+set protocols isis interface ge-0/0/0.0
+set protocols isis interface ge-0/0/1.0
+set protocols isis interface lo0.0
+set protocols isis source-packet-routing srv6 locator SRV6-LOC-01
+
+jcluser@P1> 
