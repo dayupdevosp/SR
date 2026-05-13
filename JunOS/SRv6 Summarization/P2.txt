@@ -1,0 +1,417 @@
+jcluser@P2> show version 
+Hostname: P2
+Model: vmx
+Family: junos
+Junos: 25.2R2.11
+JUNOS OS Kernel 64-bit  [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS libs compat32 [20260112.ed9bf62_builder_bsd15_252]
+JUNOS modules [20260206.145934_builder_junos_252_r2]
+JUNOS OS vmguest [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS libs [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS 32-bit compatibility [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS runtime [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS time zone information [20260112.ed9bf62_builder_bsd15_252]
+JUNOS py extensions [20260206.145934_builder_junos_252_r2]
+JUNOS py base [20260206.145934_builder_junos_252_r2]
+JUNOS OS package [20251208.213424_builder_main]
+JUNOS OS crypto [20260112.ed9bf62_builder_bsd15_252]
+JUNOS OS boot-ve files [20260112.ed9bf62_builder_bsd15_252]
+JUNOS mx libs [20260206.145934_builder_junos_252_r2]
+JUNOS network stack and utilities [20260206.145934_builder_junos_252_r2]
+JUNOS libs [20260206.145934_builder_junos_252_r2]
+JUNOS jail runtime [20260112.ed9bf62_builder_bsd15_252]
+JUNOS daemons [20260206.145934_builder_junos_252_r2]
+JUNOS mtx network modules [20260206.145934_builder_junos_252_r2]
+JUNOS OS network modules [20260112.ed9bf62_builder_bsd15_252]
+JUNOS mx libs compat32 [20260206.145934_builder_junos_252_r2]
+JUNOS vmguest (NFX-3) [20260206.145934_builder_junos_252_r2]
+JUNOS vmguest  [20260206.145934_builder_junos_252_r2]
+JUNOS mx daemons [20260206.145934_builder_junos_252_r2]
+JUNOS libs compat32 [20260206.145934_builder_junos_252_r2]
+JUNOS mx runtime [20260206.145934_builder_junos_252_r2]
+JUNOS mx modules [20260206.145934_builder_junos_252_r2]
+JUNOS runtime [20260206.145934_builder_junos_252_r2]
+JUNOS Extension Toolkit [20260206.145934_builder_junos_252_r2]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+25.2R2.11]
+JUNOS J-Insight [20260206.145934_builder_junos_252_r2]
+JUNOS Online Documentation [20260206.145934_builder_junos_252_r2]
+JUNOS dsa [20260206.145934_builder_junos_252_r2]
+JUNOS Packet Forwarding Engine Simulation Package [20260206.145934_builder_junos_252_r2]
+JUNOS SSH Tunnel Daemon [20260206.145934_builder_junos_252_r2]
+JUNOS sflow mx [20260206.145934_builder_junos_252_r2]
+JUNOS na telemetry [25.2R2.11]
+JUNOS System Monitoring [20260206.145934_builder_junos_252_r2]
+JUNOS support scripts [20260206.145934_builder_junos_252_r2]
+Junos scheduler tracing [20260206.145934_builder_junos_252_r2]
+JUNOS RPD Telemetry Application [25.2R2.11]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20260206.145934_builder_junos_252_r2]
+JUNOS Routing mpls-oam-basic [20260206.145934_builder_junos_252_r2]
+JUNOS Routing mpls-oam-advanced [20260206.145934_builder_junos_252_r2]
+JUNOS Routing lsys [20260206.145934_builder_junos_252_r2]
+JUNOS Routing controller-internal [20260206.145934_builder_junos_252_r2]
+JUNOS Routing controller-external [20260206.145934_builder_junos_252_r2]
+JUNOS Routing 32-bit Compatible Version [20260206.145934_builder_junos_252_r2]
+JUNOS Routing aggregated [20260206.145934_builder_junos_252_r2]
+JUNOS probe utility [20260206.145934_builder_junos_252_r2]
+JUNOS common platform support [20260206.145934_builder_junos_252_r2]
+JUNOS Openconfig [25.2R2.11]
+JUNOS L2 RSI Scripts [20260206.145934_builder_junos_252_r2]
+JUNOS Key Manager [20260206.145934_builder_junos_252_r2]
+JUNOS SQL Sync Daemon [20260206.145934_builder_junos_252_r2]
+JUNOS mtx Data Plane Crypto Support [20260206.145934_builder_junos_252_r2]
+JUNOS Broadband Edge User Plane Apps [25.2R2.11]
+JUNOS appidd-mx application-identification daemon [20260206.145934_builder_junos_252_r2]
+JUNOS Simulation Linux Package [20260206.145934_builder_junos_252_r2]
+JUNOS Simulation Package [20260206.145934_builder_junos_252_r2]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+25.2R2.11]
+
+jcluser@P2> 
+
+jcluser@P2> show configuration | display set 
+set version 25.2R2.11
+set groups GR-CORE-INTF interfaces <*> description ********GR-CORE-INTF-SETTINGS-APPLIED-ADD-DESCRIPTION********
+set groups GR-CORE-INTF interfaces <*> traps
+set groups GR-CORE-INTF interfaces <*> mtu 1518
+set groups GR-CORE-INTF interfaces <*> hold-time up 2000
+set groups GR-CORE-INTF interfaces <*> hold-time down 0
+set groups GR-CORE-INTF interfaces <*> damping half-life 30
+set groups GR-CORE-INTF interfaces <*> damping max-suppress 600
+set groups GR-CORE-INTF interfaces <*> damping reuse 250
+set groups GR-CORE-INTF interfaces <*> damping suppress 2000
+set groups GR-CORE-INTF interfaces <*> damping enable
+set groups GR-CORE-INTF interfaces <*> unit 0 traps
+set groups GR-CORE-INTF interfaces <*> unit 0 family iso mtu 1500
+set groups GR-CORE-INTF interfaces <*> unit 0 family mpls mtu 1500
+set groups GR-CORE-INTF interfaces <*> unit 0 family mpls maximum-labels 5
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options bfd-liveness-detection version automatic
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options bfd-liveness-detection minimum-interval 50
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options bfd-liveness-detection multiplier 3
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options bfd-liveness-detection no-adaptation
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options lacp active
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options lacp accept-data
+set groups GR-CORE-INTF interfaces <ae*> aggregated-ether-options lacp hold-time up 2
+set groups GR-CORE-INTF interfaces "<[egx][te]-*>" optics-options alarm low-light-alarm link-down
+set groups GR-CORE-INTF interfaces "<[egx][te]-*>" optics-options warning low-light-warning syslog
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> description ********GR-CORE-INTF-LAG-MEMBER-SETTINGS-APPLIED-ADD-DESCRIPTION********
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> traps
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> hold-time up 2000
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> hold-time down 0
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> damping half-life 30
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> damping max-suppress 600
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> damping reuse 250
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> damping suppress 2000
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> damping enable
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> optics-options alarm low-light-alarm link-down
+set groups GR-CORE-INTF-LAG-MEMBER interfaces <*> optics-options warning low-light-warning syslog
+set groups GR-ISIS protocols isis interface <*e*> delay-measurement
+set groups GR-ISIS protocols isis interface <*e*> hello-padding strict
+set groups GR-ISIS protocols isis interface <*e*> max-hello-size 1500
+set groups GR-ISIS protocols isis interface <*e*> lsp-interval 10
+set groups GR-ISIS protocols isis interface <*e*> point-to-point
+set groups GR-ISIS protocols isis interface "<[egx][te]-*>" family inet6 bfd-liveness-detection minimum-interval 1000
+set groups GR-ISIS protocols isis interface "<[egx][te]-*>" family inet6 bfd-liveness-detection multiplier 3
+set groups GR-ISIS protocols isis interface "<[egx][te]-*>" family inet6 bfd-liveness-detection no-adaptation
+set groups GR-BGP protocols bgp group <GR-IBGP-*> type internal
+set groups GR-BGP protocols bgp group <GR-IBGP-*> authentication-algorithm ao
+set groups GR-BGP protocols bgp group <GR-IBGP-*> authentication-key-chain KC-BGP
+set groups GR-BGP protocols bgp group <GR-IBGP-*> multipath
+set groups GR-BGP protocols bgp group <GR-IBGP-*> tcp-mss 4096
+set groups GR-EDGE-INTF interfaces <*> description ********GR-EDGE-INTF-SETTINGS-APPLIED-ADD-DESCRIPTION********
+set groups GR-EDGE-INTF interfaces <*> traps
+set groups GR-EDGE-INTF interfaces <*> flexible-vlan-tagging
+set groups GR-EDGE-INTF interfaces <*> mtu 9102
+set groups GR-EDGE-INTF interfaces <*> hold-time up 180000
+set groups GR-EDGE-INTF interfaces <*> hold-time down 0
+set groups GR-EDGE-INTF interfaces <*> damping half-life 30
+set groups GR-EDGE-INTF interfaces <*> damping max-suppress 600
+set groups GR-EDGE-INTF interfaces <*> damping reuse 250
+set groups GR-EDGE-INTF interfaces <*> damping suppress 2000
+set groups GR-EDGE-INTF interfaces <*> damping enable
+set groups GR-EDGE-INTF interfaces <*> encapsulation flexible-ethernet-services
+set groups GR-EDGE-INTF interfaces <ae*> aggregated-ether-options lacp active
+set groups GR-EDGE-INTF interfaces <ae*> aggregated-ether-options lacp accept-data
+set groups GR-EDGE-INTF interfaces <ae*> aggregated-ether-options lacp hold-time up 2
+set groups GR-EDGE-INTF interfaces "<[egx][te]-*>" optics-options alarm low-light-alarm link-down
+set groups GR-EDGE-INTF interfaces "<[egx][te]-*>" optics-options warning low-light-warning syslog
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> traps
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> hold-time up 180000
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> hold-time down 0
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> optics-options alarm low-light-alarm link-down
+set groups GR-EDGE-INTF-LAG-MEMBER interfaces <*> optics-options warning low-light-warning syslog
+set groups GR-L3VPN routing-instances <*> instance-type vrf
+set groups GR-L3VPN routing-instances <*> routing-options static route 0.0.0.0/0 discard
+set groups GR-L3VPN routing-instances <*> routing-options static route 0.0.0.0/0 retain
+set groups GR-L3VPN routing-instances <*> routing-options static route 0.0.0.0/0 no-readvertise
+set groups GR-L3VPN routing-instances <*> routing-options static route 0.0.0.0/0 preference 4294967295
+set groups GR-L3VPN routing-instances <*> routing-options multipath vpn-unequal-cost
+set groups GR-L3VPN routing-instances <*> vrf-table-label
+set groups GR-ISIS-L1 protocols isis interface <*e*> level 1 post-convergence-lfa node-protection cost 16777214
+deactivate groups GR-ISIS-L1 protocols isis interface <*e*> level 1 post-convergence-lfa
+set groups GR-ISIS-L1 protocols isis interface <*e*> level 1 hello-authentication-key-chain KC-ISIS
+set groups GR-ISIS-L1 protocols isis interface <*e*> level 2 disable
+set groups GR-ISIS-L2 protocols isis interface <*e*> level 1 disable
+set groups GR-ISIS-L2 protocols isis interface <*e*> level 2 post-convergence-lfa node-protection cost 16777214
+deactivate groups GR-ISIS-L2 protocols isis interface <*e*> level 2 post-convergence-lfa
+set groups GR-ISIS-L2 protocols isis interface <*e*> level 2 hello-authentication-key-chain KC-ISIS
+set groups GR-ISIS-L1-L2 protocols isis interface <*e*> level 1 post-convergence-lfa node-protection cost 16777214
+deactivate groups GR-ISIS-L1-L2 protocols isis interface <*e*> level 1 post-convergence-lfa
+set groups GR-ISIS-L1-L2 protocols isis interface <*e*> level 1 hello-authentication-key-chain KC-ISIS
+set groups GR-ISIS-L1-L2 protocols isis interface <*e*> level 2 post-convergence-lfa node-protection cost 16777214
+deactivate groups GR-ISIS-L1-L2 protocols isis interface <*e*> level 2 post-convergence-lfa
+set groups GR-ISIS-L1-L2 protocols isis interface <*e*> level 2 hello-authentication-key-chain KC-ISIS
+set groups global interfaces lo0 description loopback
+deactivate groups global interfaces lo0
+set system host-name P2
+set system root-authentication encrypted-password "$6$OngCkzYu$Ni4.zQxYsZEa25SUVKTEosYIUT.SHVczdxpCnChzplEhG7idL1aub3gkTXZI10HipRUPIBZNMWwbhgN52xpY./"
+set system root-authentication ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAYEA0v/g0JwB9p88dGXIrEiZOPeFAIN0MsUrdNc/txHVRCuyXgwCHBvqJm9qKsSnxlAFYMDmFDwKR71gMuEHhp5muZWAU8y8cagcwssvLRPthJSWA8+g2ah4tVLX3DO+LjS7IwiHO3FC2NIVXxNWcXGFQn2usr9+rAoGgSO6zoykaid8r/yak73memrWIsHmZUbCdxjmT88dQgwt6p5mA4ZtREtwanpZI1hrXE0fR6HaC8gIPRgJM9Ldgu2mE+QHb/W240W3d3RrXUECzfCZiXIJrGy2P5QJAjrjg29hxkqwkhSytVqX3/U2bCHP2aJ5W32NfNcSvyyI+PpVqanbG/Quq8lAoEA5I088LJuDf37bZ6lBzADkyCZ0/5C5xZ2R0ZMLlfGR5JDKmVFCjLcumykopaEGIrLL6w/i+LhEG6eAhGIQYQjzLOezBnnlpuOpWIgk9ZAqCVcByNZThFkaP79QsOg7s5v+0tPJDMvnyuvVOMvE2QmO7eXNW73kK5MXksTl kszarkowicz@q-pod13-vmm.englab.juniper.net"
+set system scripts language python3
+set system login class wheel permissions snmp
+set system login user jcluser uid 2000
+set system login user jcluser class super-user
+set system login user jcluser authentication encrypted-password "$6$EutKyt02$fvSV96tsKhuxb2xsRsPwwZGYjKgJZFNjDtOxpBP8qzjM7yhVZ6OTHuGtlzxjZM1VUCtGLEyCHIjyTvZZTVvBj/"
+set system login user regress uid 928
+set system login user regress class superuser
+set system login user regress shell csh
+set system login user regress authentication encrypted-password "$1$kPU..$w.4FGRAGanJ8U4Yq6sbj7."
+set system login user remote uid 2000
+set system login user remote class super-user
+set system services netconf ssh
+set system services ssh root-login allow
+set system services finger
+set system services ftp
+set system services rlogin
+set system services telnet
+set system services xnm-clear-text      
+set system services rest http port 3000
+set system services rest enable-explorer
+set system domain-name englab.juniper.net
+set system domain-search englab.juniper.net
+set system domain-search juniper.net
+set system domain-search jnpr.net
+set system backup-router 10.49.255.254
+set system time-zone America/Los_Angeles
+set system debugger-on-break
+set system dump-on-panic
+set system authentication-order password
+set system authentication-order radius
+set system ports console log-out-on-disconnect
+set system name-server 10.49.32.95
+set system name-server 10.49.32.97
+set system radius-server 10.48.144.16 secret "$9$TQ/t1IcSrKAt0IRheK8X7VYgaZDm5zNdiqmTn6"
+set system radius-server 10.48.144.17 secret "$9$GqUqf3nCApOPfQn690ORhSeWL7-boZDylsgoGHk"
+set system syslog user * any emergency
+set system syslog host log any notice
+set system syslog host log kernel info
+set system syslog host log pfe info
+set system syslog host log interactive-commands any
+set system syslog file interactive-commands interactive-commands any
+set system syslog file messages any notice
+set system syslog file messages authorization info
+set system syslog file messages kernel info
+set system syslog file messages pfe info
+set system syslog file messages archive world-readable
+set system syslog file security interactive-commands any
+set system syslog file security archive world-readable
+set system processes routing enable
+set system processes ntp enable
+set system processes management enable
+set system processes watchdog enable
+set system processes dhcp-service traceoptions file dhcp_logfile
+set system processes dhcp-service traceoptions file size 10m
+set system processes dhcp-service traceoptions level all
+set system processes dhcp-service traceoptions flag packet
+set system processes snmp enable
+set system processes inet-process enable
+set system processes mib-process enable
+set system ntp boot-server 66.129.255.75
+set system ntp server 66.129.255.75
+set system ntp server 172.29.131.60
+set system ntp server 172.29.135.60
+set chassis dump-on-panic
+set chassis fpc 0 pic 0 number-of-ports 8
+set chassis fpc 0 lite-mode
+set chassis network-services enhanced-ip
+set security authentication-key-chains key-chain KC-BGP key 1 secret "$9$LiV7dwoJDmfzYgfz36u0LxN"
+set security authentication-key-chains key-chain KC-BGP key 1 start-time "2016-12-31.16:00:00 -0800"
+set security authentication-key-chains key-chain KC-BGP key 1 algorithm ao
+set security authentication-key-chains key-chain KC-BGP key 1 ao-attribute send-id 1
+set security authentication-key-chains key-chain KC-BGP key 1 ao-attribute recv-id 1
+set security authentication-key-chains key-chain KC-BGP key 1 ao-attribute tcp-ao-option enabled
+set security authentication-key-chains key-chain KC-BGP key 1 ao-attribute cryptographic-algorithm aes-128-cmac-96
+set security authentication-key-chains key-chain KC-ISIS key 1 secret "$9$TF6ABIcvWxp0WxNdg4QFn"
+set security authentication-key-chains key-chain KC-ISIS key 1 start-time "2016-12-31.16:00:00 -0800"
+set security authentication-key-chains key-chain KC-ISIS key 1 algorithm hmac-sha-1
+set security authentication-key-chains key-chain KC-ISIS key 1 options isis-enhanced
+set interfaces ge-0/0/0 apply-groups GR-CORE-INTF
+set interfaces ge-0/0/0 description P1:ge-0/0/0
+set interfaces ge-0/0/0 unit 0 family iso
+set interfaces ge-0/0/0 unit 0 family inet6 address 2001:db8:beef::0102:2/112
+set interfaces ge-0/0/1 apply-groups GR-CORE-INTF
+set interfaces ge-0/0/1 description PE11:ge-0/0/2
+set interfaces ge-0/0/1 unit 0 family iso
+set interfaces ge-0/0/1 unit 0 family inet6 address 2001:db8:beef:100::0211:2/112
+set interfaces ge-0/0/2 apply-groups GR-CORE-INTF
+set interfaces ge-0/0/2 description PE12:ge-0/0/2
+set interfaces ge-0/0/2 unit 0 family iso
+set interfaces ge-0/0/2 unit 0 family inet6 address 2001:db8:beef:100::0212:2/112
+set interfaces ge-0/0/3 apply-groups GR-CORE-INTF
+set interfaces ge-0/0/3 description P4:ge-0/0/3
+set interfaces ge-0/0/3 unit 0 family iso
+set interfaces ge-0/0/3 unit 0 family inet6 address 2001:db8:beef::0204:2/112
+set interfaces ge-0/0/4 apply-groups GR-CORE-INTF
+set interfaces ge-0/0/4 description P3:ge-0/0/4
+set interfaces ge-0/0/4 unit 0 family iso
+set interfaces ge-0/0/4 unit 0 family inet6 address 2001:db8:beef::0203:2/112
+set interfaces fxp0 unit 0 family inet address 100.123.1.3/16
+set interfaces lo0 unit 0 family iso address 49.0001.0000.0000.0002.00
+set interfaces lo0 unit 0 family inet6 address 2001:db8:bad:cafe::2/128
+set snmp location "Systest lab"
+set snmp contact "Jay Lloyd"
+set snmp interface fxp0.0
+set snmp community public authorization read-only
+set snmp community private authorization read-write
+set policy-options policy-statement PS-ISIS-EXP term TR-OOB-MGMT from interface em0.0
+set policy-options policy-statement PS-ISIS-EXP term TR-OOB-MGMT from interface fxp0.0
+set policy-options policy-statement PS-ISIS-EXP term TR-OOB-MGMT then reject
+set policy-options policy-statement PS-ISIS-EXP term TR-LOCAL-LOOPBACK from protocol direct
+set policy-options policy-statement PS-ISIS-EXP term TR-LOCAL-LOOPBACK from interface lo0.0
+set policy-options policy-statement PS-ISIS-EXP term TR-LOCAL-LOOPBACK from route-filter 2001:db8:bad:cafe::/64 prefix-length-range /128-/128
+set policy-options policy-statement PS-ISIS-EXP term TR-LOCAL-LOOPBACK then tag 101
+set policy-options policy-statement PS-ISIS-EXP term TR-LOCAL-LOOPBACK then accept
+set policy-options policy-statement PS-ISIS-EXP term TR-DIRECT-ROUTES from protocol direct
+set policy-options policy-statement PS-ISIS-EXP term TR-DIRECT-ROUTES from route-filter 2001:db8:beef::/48 prefix-length-range /112-/112
+set policy-options policy-statement PS-ISIS-EXP term TR-DIRECT-ROUTES then accept
+set policy-options policy-statement PS-ISIS-EXP then reject
+set policy-options policy-statement PS-ISIS-IMP term TR-HIGH from tag 101
+set policy-options policy-statement PS-ISIS-IMP term TR-HIGH then priority high
+set policy-options policy-statement PS-ISIS-IMP term TR-HIGH then accept
+set policy-options policy-statement PS-ISIS-IMP term TR-MEDIUM from tag 102
+set policy-options policy-statement PS-ISIS-IMP term TR-MEDIUM then priority medium
+set policy-options policy-statement PS-ISIS-IMP term TR-MEDIUM then no-backup
+set policy-options policy-statement PS-ISIS-IMP term TR-MEDIUM then accept
+set policy-options policy-statement PS-ISIS-IMP term TR-LOW then priority low
+set policy-options policy-statement PS-ISIS-IMP term TR-LOW then no-backup
+set policy-options policy-statement PS-ISIS-IMP term TR-LOW then accept
+set policy-options policy-statement PS-LOAD-BALANCE then load-balance per-packet
+set routing-options source-packet-routing srv6 locator SL-000 2001:db8:0:2::/64
+set routing-options source-packet-routing srv6 no-reduced-srh
+set routing-options rib inet6.0
+set routing-options resolution preserve-nexthop-hierarchy
+set routing-options resolution rib bgp.rtarget.0 inet6-resolution-ribs inet6.3
+set routing-options resolution rib bgp.rtarget.0 inet6-resolution-ribs inet6.0
+set routing-options router-id 192.168.0.2
+set routing-options autonomous-system 65000
+set routing-options ipv6-router-id 2001:db8:bad:cafe::2
+set routing-options static route 0.0.0.0/0 next-hop 100.123.0.1
+set routing-options static route 10.0.0.0/8 next-hop 10.49.255.254
+set routing-options static route 10.0.0.0/8 retain
+set routing-options static route 10.0.0.0/8 no-readvertise
+set routing-options static route 66.129.0.0/16 next-hop 10.49.255.254
+set routing-options static route 66.129.0.0/16 retain
+set routing-options static route 66.129.0.0/16 no-readvertise
+set routing-options static route 172.16.0.0/12 next-hop 10.49.255.254
+set routing-options static route 172.16.0.0/12 retain
+set routing-options static route 172.16.0.0/12 no-readvertise
+set routing-options static route 192.168.0.0/16 next-hop 10.49.255.254
+set routing-options static route 192.168.0.0/16 retain
+set routing-options static route 192.168.0.0/16 no-readvertise
+set routing-options forwarding-table export PS-LOAD-BALANCE
+set protocols router-advertisement interface fxp0.0 managed-configuration
+set protocols bfd traceoptions file bfd
+set protocols bfd traceoptions file size 10m
+set protocols bfd traceoptions file files 5
+set protocols bfd traceoptions file world-readable
+set protocols bfd traceoptions flag error
+set protocols bfd traceoptions flag state
+set protocols bgp apply-groups GR-BGP
+set protocols bgp path-selection external-router-id
+set protocols bgp group GR-IBGP-EDGE local-address 2001:db8:bad:cafe::2
+set protocols bgp group GR-IBGP-EDGE family inet unicast extended-nexthop
+set protocols bgp group GR-IBGP-EDGE family inet unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet unicast accept-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet-vpn unicast extended-nexthop
+set protocols bgp group GR-IBGP-EDGE family inet-vpn unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet-vpn unicast accept-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet6 unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet6 unicast accept-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet6-vpn unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-EDGE family inet6-vpn unicast accept-srv6-service
+set protocols bgp group GR-IBGP-EDGE family route-target advertise-default
+set protocols bgp group GR-IBGP-EDGE cluster 192.168.0.2
+set protocols bgp group GR-IBGP-EDGE neighbor 2001:db8:bad:cafe:100::11 description PE11
+set protocols bgp group GR-IBGP-EDGE neighbor 2001:db8:bad:cafe:100::12 description PE12
+set protocols bgp group GR-IBGP-RR local-address 2001:db8:bad:cafe::2
+set protocols bgp group GR-IBGP-RR family inet unicast extended-nexthop
+set protocols bgp group GR-IBGP-RR family inet unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-RR family inet unicast accept-srv6-service
+set protocols bgp group GR-IBGP-RR family inet-vpn unicast extended-nexthop
+set protocols bgp group GR-IBGP-RR family inet-vpn unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-RR family inet-vpn unicast accept-srv6-service
+set protocols bgp group GR-IBGP-RR family inet6 unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-RR family inet6 unicast accept-srv6-service
+set protocols bgp group GR-IBGP-RR family inet6-vpn unicast advertise-srv6-service
+set protocols bgp group GR-IBGP-RR family inet6-vpn unicast accept-srv6-service
+set protocols bgp group GR-IBGP-RR family route-target advertise-default
+set protocols bgp group GR-IBGP-RR neighbor 2001:db8:bad:cafe::1 description P1
+set protocols bgp group GR-IBGP-RR neighbor 2001:db8:bad:cafe::3 description P3
+set protocols bgp group GR-IBGP-RR neighbor 2001:db8:bad:cafe::4 description P4
+set protocols bgp precision-timers
+set protocols bgp traceoptions file bgp
+set protocols bgp traceoptions file size 10m
+set protocols bgp traceoptions file files 5
+set protocols bgp traceoptions file world-readable
+set protocols bgp traceoptions flag open detail
+set protocols bgp traceoptions flag state detail
+set protocols bgp advertise-inactive
+set protocols bgp log-updown
+set protocols bgp bgp-error-tolerance
+set protocols bgp multipath list-nexthop
+set protocols bgp rfc8950-compliant
+set protocols bgp defaults ebgp no-policy receive reject-always
+set protocols bgp defaults ebgp no-policy advertise reject-always
+set protocols esis disable
+set protocols isis apply-groups GR-ISIS
+set protocols isis interface ge-0/0/0.0 apply-groups GR-ISIS-L1-L2
+set protocols isis interface ge-0/0/1.0 apply-groups GR-ISIS-L1
+set protocols isis interface ge-0/0/2.0 apply-groups GR-ISIS-L1
+set protocols isis interface ge-0/0/3.0 apply-groups GR-ISIS-L2
+set protocols isis interface ge-0/0/4.0 apply-groups GR-ISIS-L2
+set protocols isis interface lo0.0 passive
+set protocols isis source-packet-routing no-strict-spf
+set protocols isis source-packet-routing srv6 locator SL-000 end-sid 2001:db8:0:2:: flavor psp
+set protocols isis source-packet-routing srv6 locator SL-000 end-sid 2001:db8:0:2:: flavor usd
+deactivate protocols isis source-packet-routing srv6 locator SL-000 end-sid 2001:db8:0:2:: flavor
+set protocols isis level 1 purge-originator empty
+set protocols isis level 1 authentication-key-chain KC-ISIS
+set protocols isis level 1 wide-metrics-only
+set protocols isis level 2 purge-originator empty
+set protocols isis level 2 authentication-key-chain KC-ISIS
+set protocols isis level 2 wide-metrics-only
+set protocols isis spf-options delay 50
+set protocols isis spf-options holddown 2000
+set protocols isis spf-options rapid-runs 5
+set protocols isis traceoptions file isis
+set protocols isis traceoptions file size 5m
+set protocols isis traceoptions file files 10
+set protocols isis traceoptions file world-readable
+set protocols isis traceoptions flag error detail
+set protocols isis traceoptions flag state detail
+set protocols isis backup-spf-options use-post-convergence-lfa maximum-srv6-sids 6
+set protocols isis backup-spf-options use-post-convergence-lfa maximum-backup-paths 2
+set protocols isis backup-spf-options use-source-packet-routing
+set protocols isis export PS-ISIS-EXP
+set protocols isis import PS-ISIS-IMP
+set protocols isis reference-bandwidth 1000g
+set protocols isis lsp-lifetime 65535
+set protocols isis no-ipv4-routing
+set protocols isis suppress-attached-bit
+set protocols isis overload timeout 300
+set protocols isis overload advertise-high-metrics
+set protocols lldp interface all disable
+set protocols lldp interface ge-0/0/0
+set protocols lldp interface ge-0/0/1
+set protocols lldp interface ge-0/0/2
+set protocols lldp interface ge-0/0/3
+set protocols lldp interface ge-0/0/4
+
+jcluser@P2> 
