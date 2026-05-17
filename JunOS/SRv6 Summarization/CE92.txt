@@ -1,74 +1,92 @@
 jcluser@CE92> show version 
 Hostname: CE92
 Model: vmx
-Family: junos
-Junos: 25.2R2.11
-JUNOS OS Kernel 64-bit  [20260112.ed9bf62_builder_bsd15_252]
-JUNOS OS libs compat32 [20260112.ed9bf62_builder_bsd15_252]
-JUNOS modules [20260206.145934_builder_junos_252_r2]
-JUNOS OS vmguest [20260112.ed9bf62_builder_bsd15_252]
-JUNOS OS libs [20260112.ed9bf62_builder_bsd15_252]
-JUNOS OS 32-bit compatibility [20260112.ed9bf62_builder_bsd15_252]
-JUNOS OS runtime [20260112.ed9bf62_builder_bsd15_252]
-JUNOS OS time zone information [20260112.ed9bf62_builder_bsd15_252]
-JUNOS py extensions [20260206.145934_builder_junos_252_r2]
-JUNOS py base [20260206.145934_builder_junos_252_r2]
-JUNOS OS package [20251208.213424_builder_main]
-JUNOS OS crypto [20260112.ed9bf62_builder_bsd15_252]
-JUNOS OS boot-ve files [20260112.ed9bf62_builder_bsd15_252]
-JUNOS mx libs [20260206.145934_builder_junos_252_r2]
-JUNOS network stack and utilities [20260206.145934_builder_junos_252_r2]
-JUNOS libs [20260206.145934_builder_junos_252_r2]
-JUNOS jail runtime [20260112.ed9bf62_builder_bsd15_252]
-JUNOS daemons [20260206.145934_builder_junos_252_r2]
-JUNOS mtx network modules [20260206.145934_builder_junos_252_r2]
-JUNOS OS network modules [20260112.ed9bf62_builder_bsd15_252]
-JUNOS mx libs compat32 [20260206.145934_builder_junos_252_r2]
-JUNOS vmguest (NFX-3) [20260206.145934_builder_junos_252_r2]
-JUNOS vmguest  [20260206.145934_builder_junos_252_r2]
-JUNOS mx daemons [20260206.145934_builder_junos_252_r2]
-JUNOS libs compat32 [20260206.145934_builder_junos_252_r2]
-JUNOS mx runtime [20260206.145934_builder_junos_252_r2]
-JUNOS mx modules [20260206.145934_builder_junos_252_r2]
-JUNOS runtime [20260206.145934_builder_junos_252_r2]
-JUNOS Extension Toolkit [20260206.145934_builder_junos_252_r2]
-JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+25.2R2.11]
-JUNOS J-Insight [20260206.145934_builder_junos_252_r2]
-JUNOS Online Documentation [20260206.145934_builder_junos_252_r2]
-JUNOS dsa [20260206.145934_builder_junos_252_r2]
-JUNOS Packet Forwarding Engine Simulation Package [20260206.145934_builder_junos_252_r2]
-JUNOS SSH Tunnel Daemon [20260206.145934_builder_junos_252_r2]
-JUNOS sflow mx [20260206.145934_builder_junos_252_r2]
-JUNOS na telemetry [25.2R2.11]
-JUNOS System Monitoring [20260206.145934_builder_junos_252_r2]
-JUNOS support scripts [20260206.145934_builder_junos_252_r2]
-Junos scheduler tracing [20260206.145934_builder_junos_252_r2]
-JUNOS RPD Telemetry Application [25.2R2.11]
-JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20260206.145934_builder_junos_252_r2]
-JUNOS Routing mpls-oam-basic [20260206.145934_builder_junos_252_r2]
-JUNOS Routing mpls-oam-advanced [20260206.145934_builder_junos_252_r2]
-JUNOS Routing lsys [20260206.145934_builder_junos_252_r2]
-JUNOS Routing controller-internal [20260206.145934_builder_junos_252_r2]
-JUNOS Routing controller-external [20260206.145934_builder_junos_252_r2]
-JUNOS Routing 32-bit Compatible Version [20260206.145934_builder_junos_252_r2]
-JUNOS Routing aggregated [20260206.145934_builder_junos_252_r2]
-JUNOS probe utility [20260206.145934_builder_junos_252_r2]
-JUNOS common platform support [20260206.145934_builder_junos_252_r2]
-JUNOS Openconfig [25.2R2.11]
-JUNOS L2 RSI Scripts [20260206.145934_builder_junos_252_r2]
-JUNOS Key Manager [20260206.145934_builder_junos_252_r2]
-JUNOS SQL Sync Daemon [20260206.145934_builder_junos_252_r2]
-JUNOS mtx Data Plane Crypto Support [20260206.145934_builder_junos_252_r2]
-JUNOS Broadband Edge User Plane Apps [25.2R2.11]
-JUNOS appidd-mx application-identification daemon [20260206.145934_builder_junos_252_r2]
-JUNOS Simulation Linux Package [20260206.145934_builder_junos_252_r2]
-JUNOS Simulation Package [20260206.145934_builder_junos_252_r2]
-JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+25.2R2.11]
+Junos: 22.1R1.10
+JUNOS OS Kernel 64-bit  [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS libs [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS runtime [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS time zone information [20220221.2b3c81a_builder_stable_12_221]
+JUNOS network stack and utilities [20220316.080819_builder_junos_221_r1]
+JUNOS libs [20220316.080819_builder_junos_221_r1]
+JUNOS OS libs compat32 [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS 32-bit compatibility [20220221.2b3c81a_builder_stable_12_221]
+JUNOS libs compat32 [20220316.080819_builder_junos_221_r1]
+JUNOS runtime [20220316.080819_builder_junos_221_r1]
+JUNOS Packet Forwarding Engine Simulation Package [20220316.080819_builder_junos_221_r1]
+JUNOS sflow mx [20220316.080819_builder_junos_221_r1]
+JUNOS py extensions [20220316.080819_builder_junos_221_r1]
+JUNOS py base [20220316.080819_builder_junos_221_r1]
+JUNOS OS vmguest [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS crypto [20220221.2b3c81a_builder_stable_12_221]
+JUNOS OS boot-ve files [20220221.2b3c81a_builder_stable_12_221]
+JUNOS na telemetry [22.1R1.10]
+Junos vmguest package [20220316.080819_builder_junos_221_r1]
+JUNOS mx libs compat32 [20220316.080819_builder_junos_221_r1]
+JUNOS mx runtime [20220316.080819_builder_junos_221_r1]
+JUNOS RPD Telemetry Application [22.1R1.10]
+JUNOS Routing mpls-oam-basic [20220316.080819_builder_junos_221_r1]
+JUNOS Routing mpls-oam-advanced [20220316.080819_builder_junos_221_r1]
+JUNOS Routing lsys [20220316.080819_builder_junos_221_r1]
+JUNOS Routing controller-internal [20220316.080819_builder_junos_221_r1]
+JUNOS Routing controller-external [20220316.080819_builder_junos_221_r1]
+JUNOS Routing 32-bit Compatible Version [20220316.080819_builder_junos_221_r1]
+JUNOS Routing aggregated [20220316.080819_builder_junos_221_r1]
+Redis [20220316.080819_builder_junos_221_r1]
+JUNOS probe utility [20220316.080819_builder_junos_221_r1]
+JUNOS common platform support [20220316.080819_builder_junos_221_r1]
+JUNOS Openconfig [22.1R1.10]
+JUNOS mtx network modules [20220316.080819_builder_junos_221_r1]
+JUNOS modules [20220316.080819_builder_junos_221_r1]
+JUNOS mx modules [20220316.080819_builder_junos_221_r1]
+JUNOS mx libs [20220316.080819_builder_junos_221_r1]
+JUNOS L2 RSI Scripts [20220316.080819_builder_junos_221_r1]
+JUNOS SQL Sync Daemon [20220316.080819_builder_junos_221_r1]
+JUNOS mtx Data Plane Crypto Support [20220316.080819_builder_junos_221_r1]
+JUNOS daemons [20220316.080819_builder_junos_221_r1]
+JUNOS mx daemons [20220316.080819_builder_junos_221_r1]
+JUNOS Broadband Edge User Plane Apps [22.1R1.10]
+JUNOS appidd-mx application-identification daemon [20220316.080819_builder_junos_221_r1]
+JUNOS Simulation Linux Package [20220316.080819_builder_junos_221_r1]
+JUNOS Simulation Package [20220316.080819_builder_junos_221_r1]
+JUNOS Services URL Filter package [20220316.080819_builder_junos_221_r1]
+JUNOS Services TLB Service PIC package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Telemetry [20220316.080819_builder_junos_221_r1]
+JUNOS Services TCP-LOG [20220316.080819_builder_junos_221_r1]
+JUNOS Services SSL [20220316.080819_builder_junos_221_r1]
+JUNOS Services SOFTWIRE [20220316.080819_builder_junos_221_r1]
+JUNOS Services Stateful Firewall [20220316.080819_builder_junos_221_r1]
+JUNOS Services RTCOM [20220316.080819_builder_junos_221_r1]
+JUNOS Services RPM [20220316.080819_builder_junos_221_r1]
+JUNOS Services PCEF package [20220316.080819_builder_junos_221_r1]
+JUNOS Services NAT [20220316.080819_builder_junos_221_r1]
+JUNOS Services Mobile Subscriber Service Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services MobileNext Software package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Logging Report Framework package [20220316.080819_builder_junos_221_r1]
+JUNOS Services LL-PDF Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Jflow Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services Deep Packet Inspection package [20220316.080819_builder_junos_221_r1]
+JUNOS Services IPSec [20220316.080819_builder_junos_221_r1]
+JUNOS Services IDS [20220316.080819_builder_junos_221_r1]
+JUNOS IDP Services [20220316.080819_builder_junos_221_r1]
+JUNOS Services HTTP Content Management package [20220316.080819_builder_junos_221_r1]
+JUNOS Services DNS Filter package (i386) [20220316.080819_builder_junos_221_r1] 
+JUNOS Services Crypto [20220316.080819_builder_junos_221_r1]
+JUNOS Services Captive Portal and Content Delivery Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Services COS [20220316.080819_builder_junos_221_r1]
+JUNOS AppId Services [20220316.080819_builder_junos_221_r1]
+JUNOS Services Application Level Gateways [20220316.080819_builder_junos_221_r1]
+JUNOS Services AACL Container package [20220316.080819_builder_junos_221_r1]
+JUNOS Extension Toolkit [20220316.080819_builder_junos_221_r1]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20220316.080819_builder_junos_221_r1]
+JUNOS J-Insight [20220316.080819_builder_junos_221_r1]
+JUNOS Online Documentation [20220316.080819_builder_junos_221_r1]
+JUNOS jail runtime [20220221.2b3c81a_builder_stable_12_221]
+JUNOS dsa dsa [22.1R1.10]
 
 jcluser@CE92> 
 
 jcluser@CE92> show configuration | display set 
-set version 25.2R2.11
+set version 22.1R1.10
 set groups GR-EDGE-INTF interfaces <*> description ********GR-EDGE-INTF-SETTINGS-APPLIED-ADD-DESCRIPTION********
 set groups GR-EDGE-INTF interfaces <*> traps
 set groups GR-EDGE-INTF interfaces <*> flexible-vlan-tagging
@@ -117,13 +135,13 @@ set system login user regress shell csh
 set system login user regress authentication encrypted-password "$1$kPU..$w.4FGRAGanJ8U4Yq6sbj7."
 set system login user remote uid 2000
 set system login user remote class super-user
-set system services netconf ssh
-set system services ssh root-login allow
 set system services finger
 set system services ftp
 set system services rlogin
-set system services telnet              
-set system services xnm-clear-text
+set system services ssh root-login allow
+set system services telnet
+set system services xnm-clear-text      
+set system services netconf ssh
 set system services rest http port 3000
 set system services rest enable-explorer
 set system domain-name englab.juniper.net
@@ -228,18 +246,18 @@ set routing-instances RI-30 interface ge-0/0/2.30
 set routing-instances RI-30 interface lo0.30
 set routing-options router-id 128.49.251.140
 set routing-options static route 0.0.0.0/0 next-hop 100.123.0.1
-set routing-options static route 10.0.0.0/8 next-hop 10.49.255.254
-set routing-options static route 10.0.0.0/8 retain
-set routing-options static route 10.0.0.0/8 no-readvertise
-set routing-options static route 66.129.0.0/16 next-hop 10.49.255.254
-set routing-options static route 66.129.0.0/16 retain
-set routing-options static route 66.129.0.0/16 no-readvertise
 set routing-options static route 172.16.0.0/12 next-hop 10.49.255.254
 set routing-options static route 172.16.0.0/12 retain
 set routing-options static route 172.16.0.0/12 no-readvertise
 set routing-options static route 192.168.0.0/16 next-hop 10.49.255.254
 set routing-options static route 192.168.0.0/16 retain
 set routing-options static route 192.168.0.0/16 no-readvertise
+set routing-options static route 10.0.0.0/8 next-hop 10.49.255.254
+set routing-options static route 10.0.0.0/8 retain
+set routing-options static route 10.0.0.0/8 no-readvertise
+set routing-options static route 66.129.0.0/16 next-hop 10.49.255.254
+set routing-options static route 66.129.0.0/16 retain
+set routing-options static route 66.129.0.0/16 no-readvertise
 set routing-options forwarding-table export PS-LOAD-BALANCE
 set protocols router-advertisement interface fxp0.0 managed-configuration
                                         
